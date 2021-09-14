@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Poppins";
+  background-color: rgb(24, 24, 31);
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+
+  outline: none;
+  right: 0;
+}
+.canvas {
+  right: 0;
+}
+h1,
+p {
+  color: white;
+  top: 35px;
+}
+p {
+  color: rgb(107, 114, 122);
+}
+
+.container {
+  position: absolute;
+  margin: 16em 8em;
+  width: 544px;
+}
+button {
+  background-color: blue;
+  color: white;
+  outline-width: 0;
+  border: 0;
+  margin-top: 15px;
+  padding: 12px;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    margin-top: 15px;
+  }
+  .webgl {
+    left: 0;
+  }
+}
